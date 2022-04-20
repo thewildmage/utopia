@@ -77,7 +77,9 @@ Inspired and informed by https://utopia.fyi/
     */
 
     /* Run */
-    --utopia-run: (var(--utopia-max-viewport-width) - var(--utopia-min-viewport-width));
+    --utopia-run: (
+        var(--utopia-max-viewport-width) - var(--utopia-min-viewport-width)
+    );
 
     /* Slopes */
     --utopia-type-200-slope: (
