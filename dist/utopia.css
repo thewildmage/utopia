@@ -397,4 +397,35 @@ For final variables to be used in designs, look for "Solve" sections.
             (var(--utopia-space-800-900-intercept) / 16 * 1rem),
         var(--space-800-900-max) / 16 * 1rem
     );
+
+    /*
+    -----
+    RELATIVE SPACE
+    -----
+    Mostly we'll use the above space variables, which are fixed in that any
+    given space variable will be the same size no matter where it's used.
+
+    More rarely we'll need to create spacing that's relative to the current
+    font size, such as within components or when using a 
+    flow utility (https://24ways.org/2018/managing-flow-and-rhythm-with-css-custom-properties/).
+    That's what these variables are for.
+
+    These use the same multipliers as the regular space variables for
+    improved consistency.
+
+    Note that we don't need to use formulas here to solve for lines because
+    all of our font sizes already do this. A multiplier times an already
+    shifting 1em gives us shifting sizes.
+    */
+
+    /* ----- Solve */
+    --space-relative-100: calc(1em * var(--utopia-space-100-multiplier));
+    --space-relative-200: calc(1em * var(--utopia-space-200-multiplier));
+    --space-relative-300: calc(1em * var(--utopia-space-300-multiplier));
+    --space-relative-400: calc(1em * var(--utopia-space-400-multiplier));
+    --space-relative-500: calc(1em * var(--utopia-space-500-multiplier));
+    --space-relative-600: calc(1em * var(--utopia-space-600-multiplier));
+    --space-relative-700: calc(1em * var(--utopia-space-700-multiplier));
+    --space-relative-800: calc(1em * var(--utopia-space-800-multiplier));
+    --space-relative-900: calc(1em * var(--utopia-space-900-multiplier));
 }

@@ -346,3 +346,43 @@ table {
 .space-800-900-max {
     inline-size: calc(var(--space-800-900-max) / 16 * 1rem);
 }
+
+.space-relative {
+    font-size: var(--size-400);
+}
+
+.space-relative-100 {
+    inline-size: var(--space-relative-100);
+}
+
+.space-relative-200 {
+    inline-size: var(--space-relative-200);
+}
+
+.space-relative-300 {
+    inline-size: var(--space-relative-300);
+}
+
+.space-relative-400 {
+    inline-size: var(--space-relative-400);
+}
+
+.space-relative-500 {
+    inline-size: var(--space-relative-500);
+}
+
+.space-relative-600 {
+    inline-size: var(--space-relative-600);
+}
+
+.space-relative-700 {
+    inline-size: var(--space-relative-700);
+}
+
+.space-relative-800 {
+    inline-size: var(--space-relative-800);
+}
+
+.space-relative-900 {
+    inline-size: var(--space-relative-900);
+}
