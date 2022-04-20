@@ -87,7 +87,7 @@ Inspired and informed by https://utopia.fyi/
         (var(--size-300-max) - var(--size-300-min)) / var(--utopia-run)
     );
     --utopia-type-400-slope: (
-        (var(--utopia-max-font-size) - var(--utopia-min-font-size)) / var(--utopia-run)
+        (var(--size-400-max) - var(--size-400-min)) / var(--utopia-run)
     );
     --utopia-type-500-slope: (
         (var(--size-500-max) - var(--size-500-min)) / var(--utopia-run)
@@ -115,7 +115,7 @@ Inspired and informed by https://utopia.fyi/
             var(--utopia-max-viewport-width)
     );
     --utopia-type-400-intercept: (
-        var(--utopia-max-font-size) - var(--utopia-type-400-slope) *
+        var(--size-400-max) - var(--utopia-type-400-slope) *
             var(--utopia-max-viewport-width)
     );
     --utopia-type-500-intercept: (
