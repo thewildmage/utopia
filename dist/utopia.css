@@ -406,7 +406,7 @@ For final variables to be used in designs, look for "Solve" sections.
     given space variable will be the same size no matter where it's used.
 
     More rarely we'll need to create spacing that's relative to the current
-    font size, such as within components or when using a 
+    font size, such as within components or when using a
     flow utility (https://24ways.org/2018/managing-flow-and-rhythm-with-css-custom-properties/).
     That's what these variables are for.
 
