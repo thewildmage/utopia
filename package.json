@@ -4,12 +4,12 @@
         "url": "https://github.com/thewildmage/utopia/issues"
     },
     "description": "Inspired and informed by Utopia (https://utopia.fyi), these are my own personal Utopia-like defaults.",
-    "devDependencies": {
-        "stylelint-config-prettier": "^9.0.3"
-    },
     "homepage": "https://github.com/thewildmage/utopia#readme",
     "license": "MIT",
     "name": "@thewildmage/utopia",
     "repository": "github:thewildmage/utopia",
-    "version": "0.0.0"
+    "version": "0.0.0",
+    "devDependencies": {
+        "stylelint-config-prettier": "^9.0.3"
+    }
 }
