@@ -81,6 +81,7 @@ table {
 .size-400-max {
     font-size: calc(var(--size-400-max) / 16 * 1rem);
 }
+
 .size-500-max {
     font-size: calc(var(--size-500-max) / 16 * 1rem);
 }
