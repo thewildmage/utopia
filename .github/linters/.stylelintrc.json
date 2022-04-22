@@ -5,7 +5,7 @@
     ],
     "rules": {
         "declaration-colon-newline-after": null,
-        "indentation": 4,
+        "indentation": null,
         "max-line-length": [
             120,
             {
