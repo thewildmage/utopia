@@ -4,6 +4,7 @@
         "stylelint-order"
     ],
     "rules": {
+        "custom-property-empty-line-before": null,
         "declaration-colon-newline-after": null,
         "indentation": null,
         "max-line-length": [
