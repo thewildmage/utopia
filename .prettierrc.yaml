@@ -1,0 +1,4 @@
+---
+quoteProps: consistent
+singleAttributePerLine: true
+tabWidth: 4
