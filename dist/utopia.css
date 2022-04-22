@@ -21,7 +21,7 @@ For final variables to be used in designs, look for "Solve" sections.
 
     Width and type size should be unitless here, but will later be interpreted as being in px.
     If changing units, make sure to also modify the formulas to match.
-
+    
     Scale is unitless and remains unitless.
 
     Width choices inspired by:
